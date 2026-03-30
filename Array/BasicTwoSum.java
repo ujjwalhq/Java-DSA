@@ -1,9 +1,9 @@
 // Problem: Basic Two Sum
 
-public class TwoSum {
+public class BasicTwoSum {
     public static void main(String[] args) {
 
-        int[] arr = {4, 3, 1, 3, 1, 3};
+        int[] arr = {4, 3, 1, 3, 1, 3,5,-3};
         int target = 2;
 
         boolean found = false; 
