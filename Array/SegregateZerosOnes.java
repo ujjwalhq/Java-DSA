@@ -9,12 +9,12 @@ public class SegregateZerosOnes {
     }
 
   public static void main(String[] args) {
-    int[] arr = { 0, 1, 1, 0, 0, 0, 1, 1, 0 };
+    int[] arr = {1,0,1,0,1,0,0};
     int left = 0;
     int right = arr.length - 1;
 
     Print(arr);
-    
+
     while (left < right) {
       if (arr[left] == 0) {
         left++;
